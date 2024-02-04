@@ -37,8 +37,8 @@
 }
 
 /* HEADER */
-.container-80px {
-    min-height: 80px;
+.container-60px {
+    min-height: 60px;
     background-color: lightblue;
     justify-content: center;
     align-items: center;
@@ -49,6 +49,19 @@
     width: 500px;
     min-height: 30px;
     background-color: rgb(218, 165, 32);
+}
+
+.container-300px{
+    min-height: 300px;
+    background-color: rgb(0, 0, 139);
+    justify-content: center;
+    align-items: center;
+}
+
+.hero{
+    width: 400px;
+    min-height: 250px;
+    background-color: rgb(328, 130, 238);
 }
 
 /* MAIN */
