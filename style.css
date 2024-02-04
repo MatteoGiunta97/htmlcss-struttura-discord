@@ -68,7 +68,7 @@
 
 /* MAIN */
 
-.container-400px {
+.container-400px-white {
     min-height: 400px;
     background-color: rgb(255, 255, 255);
     justify-content: center;
@@ -79,6 +79,33 @@
     width: 500px;
     min-height: 350px;
 }
+
+.container-400px-grey {
+    min-height: 400px;
+    background-color: rgb(211, 211, 211);
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 {
+    width: 500px;
+    min-height: 350px;
+}
+
+.container-400px-white {
+    min-height: 400px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3 {
+    width: 500px;
+    min-height: 350px;
+}
+
+
+
 
 
 /* FOOTER */
