@@ -28,13 +28,13 @@
     padding: 0;
 }
 
-.col-75-4{
-    width: calc(75%/4);
+.col-70-4{
+    width: calc(70%/4);
     background-color: rgb(32, 178, 170);
 }
 
-.col-25 {
-    width: 25%;
+.col-30 {
+    width: 30%;
     background-color: rgb(240, 128, 128);
 }
 
