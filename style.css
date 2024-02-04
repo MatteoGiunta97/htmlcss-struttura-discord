@@ -104,8 +104,18 @@
     min-height: 350px;
 }
 
+.container-700px-grey {
+    min-height: 700px;
+    background-color: rgb(211, 211, 211);
+    justify-content: center;
+    align-items: center;
+}
 
-
+.section-4 {
+    background-color: rgb(34, 139, 34);
+    width: 500px;
+    min-height: 650px;
+}
 
 
 /* FOOTER */
