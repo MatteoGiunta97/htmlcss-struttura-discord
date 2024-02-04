@@ -129,8 +129,8 @@
 
 /* FOOTER */
 
-.container-450px-black {
-    min-height: 450px;
+.container-700px-black {
+    min-height: 700px;
     background-color: rgb(35, 39, 42);
     justify-content: center;
     align-items: center;
@@ -139,4 +139,5 @@
 .section-1-fot{
     width: 500px;
     min-height: 450px;
+    align-self: flex-start;
 }
