@@ -5,11 +5,6 @@
     box-sizing: border-box;
 }
 
-/* DEBUG */
-* {
-    border: 2px dashed rgb(5, 248, 38);
-}
-
 /* GENERAL */
 .box {
     max-width: 1620px;
@@ -58,6 +53,7 @@
 
 .navbar {
     justify-content: space-between;
+    align-items: center;
     width: 500px;
     min-height: 30px;
     background-color: rgb(218, 165, 32);
@@ -129,22 +125,31 @@
 
 /* FOOTER */
 
-.container-600px-black {
-    min-height: 600px;
+.container-500px-black {
+    min-height: 500px;
     background-color: rgb(35, 39, 42);
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .section-1-fot{
     width: 500px;
     min-height: 450px;
-    align-self: flex-start;
+}
+
+.container-100px-black {
+    min-height: 100px;
+    background-color: rgb(35, 39, 42);
+    margin-top: 3px solid white;
+    margin-bottom: 3px solid white;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-2-fot{
     width: 500px;
-    min-height: 80px;
-    align-self: flex-end;
+    min-height: 40px;
+    background-color: rgb(127, 255, 212);
+    justify-content: space-between;
+    align-items: center;
 }
