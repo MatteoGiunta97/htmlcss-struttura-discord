@@ -28,6 +28,16 @@
     padding: 0;
 }
 
+.col-75-4{
+    width: calc(75%/4);
+    background-color: rgb(32, 178, 170);
+}
+
+.col-25 {
+    width: 25%;
+    background-color: rgb(240, 128, 128);
+}
+
 .col-40 {
     width: 40%;
     background-color: rgb(255, 192, 203);
@@ -117,5 +127,16 @@
     min-height: 650px;
 }
 
-
 /* FOOTER */
+
+.container-450px-black {
+    min-height: 450px;
+    background-color: rgb(35, 39, 42);
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1-fot{
+    width: 500px;
+    min-height: 450px;
+}
